@@ -4,14 +4,14 @@ project(asr_ivt_bridge)
 find_package(catkin REQUIRED COMPONENTS
     roscpp
     sensor_msgs
-    ivt
+    asr_ivt
     image_geometry
 )
 
 catkin_package(
 	INCLUDE_DIRS	include
 	LIBRARIES	${PROJECT_NAME}
-	CATKIN_DEPENDS roscpp sensor_msgs ivt image_geometry
+	CATKIN_DEPENDS roscpp sensor_msgs asr_ivt image_geometry
 )
 
 include_directories(

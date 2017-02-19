@@ -4,18 +4,18 @@
 	<version>1.0.0</version>
         <description>This package is used to convert between ROS messages and IVT images</description>
 	<author>Hutmacher Robin, Kleinert Daniel, Meißner Pascal</author>
-	<maintainer email="pascal.meissner@posteo.de">Meißner Pascal</maintainer>
+	<maintainer email="asr-ros@lists.kit.edu">Meißner Pascal</maintainer>
         <license>BSD</license>
 
 	<buildtool_depend>catkin</buildtool_depend>
 	<build_depend>roscpp</build_depend>
 	<build_depend>sensor_msgs</build_depend>
-	<build_depend>ivt</build_depend>
+	<build_depend>asr_ivt</build_depend>
 	<build_depend>image_geometry</build_depend>
 	
 	<run_depend>opencv2.3</run_depend>
 	<run_depend>roscpp</run_depend>
 	<run_depend>sensor_msgs</run_depend>
-	<run_depend>ivt</run_depend>
+	<run_depend>asr_ivt</run_depend>
 	<run_depend>image_geometry</run_depend>
 </package>
